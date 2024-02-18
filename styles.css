@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #29d4d7;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+.filter-buttons {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.filter-btn {
+    color:white;
+    font-weight:48px;
+    cursor: pointer;
+    padding: 8px 16px;
+    margin: 5px;
+    border: 1px solid #121010;
+    border-width: 3px;
+    border-radius: 5px;
+    background-color: #308cee;
+}
+
+.filter-btn:hover {
+    background-color: #ddd;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.gallery img {
+    display:flex;
+    flex-wrap: wrap;
+    border-radius: 28px;
+    padding: 20px;
+    width: 30%;
+    height: 30%;
+    transition: transform 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
